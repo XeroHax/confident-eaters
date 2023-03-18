@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
 * {
     font-family: 'Karla';
+    color: #444;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    color: #111
     
 }
 body {
@@ -12,4 +14,18 @@ body {
 }
 .header-logo {
     width: 120px;
+}
+header * {
+    display: inline;
+    text-decoration: none;
+    color: #111;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+}
+header li {
+    margin: 12px;
 }
