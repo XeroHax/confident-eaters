@@ -5,8 +5,17 @@
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    color: #111
+    color: #111;
     
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3, h4, h5, h6 {
+    font-size: 1.2em;
 }
 body {
     padding: 5%;
@@ -76,4 +85,14 @@ nav button:not(:disabled):active {
 
 nav button:disabled {
     box-shadow: rgba(0, 52, 58, .3) 0 1px 3px 0, rgba(0, 52, 58, .15) 0 4px 8px 3px;
+}
+
+.solve-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+
+.card {
+    width: 32%;
 }
