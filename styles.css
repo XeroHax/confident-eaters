@@ -2,11 +2,13 @@
 * {
     font-family: 'Karla';
     color: #444;
+    margin: 0;
+    padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: #111;
-    
+    padding: 1em 0 .5em 0;
 }
 h1 {
     font-size: 3em;
@@ -17,10 +19,10 @@ h2 {
 h3, h4, h5, h6 {
     font-size: 1.2em;
 }
-body {
-    padding: 5%;
-    padding-top: 2%;
+p {
+    padding: .5em 0 .5em 0;
 }
+
 .header-logo {
     width: 120px;
 }
@@ -38,7 +40,10 @@ nav ul {
 }
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    padding: 2% 5% 0 5%;
+    gap: 1em 2em;
 }
 button{
     font-size: 1em;
@@ -93,11 +98,11 @@ nav button:disabled {
     display: flex;
     flex-wrap: wrap;
     gap: 10px 3%;
-    padding-bottom: 3em;
 }
 
 .card {
     width: 22%;
+    min-width: 200px;
 }
 .card button {
     background-color: #fff;
@@ -105,10 +110,10 @@ nav button:disabled {
 }
 footer{
     display: flex;
+    gap: 1em 2em;
     align-items: flex-start;
     background-color: #00343A;
-    padding: 2em;
-
+    padding: 3% 5% 3% 5%;
     flex-wrap: wrap;
 }
 footer * {
@@ -124,12 +129,13 @@ footer menu ul{
 .footer-logo {
     width: 120px;
 }
-menu {
-    margin: 0;
-}
 ul {
     margin: 0;
 }
 .podcast {
-    padding: 5% 10%;
+    padding: 5%;
+    background-color: #EAF7F7;
+}
+main {
+    padding: 0 5% 3% 5%;
 }
