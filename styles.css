@@ -139,3 +139,15 @@ ul {
 main {
     padding: 0 5% 3% 5%;
 }
+.happy-dancer {
+    margin: 20px;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5% 10%;
+}
+#hero-text {
+    width: 50%;
+    font-size: 1.2em;
+}
