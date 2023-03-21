@@ -22,6 +22,9 @@ h3, h4, h5, h6 {
 p {
     padding: .5em 0 .5em 0;
 }
+ul {
+    padding: 0 0 .5em 1.2em;
+}
 
 .header-logo {
     width: 120px;
@@ -36,7 +39,7 @@ nav ul {
     align-items: baseline;
     flex-wrap: wrap;
     gap: 10px 15px;
-    
+    padding: 0;
 }
 header {
     display: flex;
