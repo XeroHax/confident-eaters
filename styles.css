@@ -1,169 +1,193 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap");
 * {
-    font-family: 'Karla';
-    color: #444;
-    margin: 0;
-    padding: 0;
+  font-family: "Karla";
+  color: #444;
+  margin: 0;
+  padding: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    color: #111;
-    padding: 1em 0 .5em 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: #111;
+  padding: 1em 0 0.5em 0;
 }
 h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
-h3, h4, h5, h6 {
-    font-size: 1.2em;
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.2em;
 }
 p {
-    padding: .5em 0 .5em 0;
+  padding: 0.5em 0 0.5em 0;
 }
 ul {
-    padding: 0 0 .5em 1.2em;
+  padding: 0 0 0.5em 1.2em;
 }
 
 .header-logo {
-    width: 120px;
+  width: 120px;
 }
 header * {
-    display: inline;
-    text-decoration: none;
-    color: #111;
+  display: inline;
+  text-decoration: none;
+  color: #111;
 }
 nav ul {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 10px 15px;
-    padding: 0;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px 15px;
+  padding: 0;
 }
 header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2% 5% 0 5%;
-    gap: 1em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 5% 0 5%;
+  gap: 1em 2em;
 }
-button{
-    font-size: 1em;
-    padding: .5em 1em;
-    border-radius: 5vi;
-    touch-action: manipulation;
-    cursor: pointer;
+button {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 5vi;
+  touch-action: manipulation;
+  cursor: pointer;
 }
 .sales-button {
-    background-color: #FF1744;
-    color: white;
-    border-style: none;
-    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
-    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-    will-change: transform, opacity;
+  background-color: #ff1744;
+  color: white;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  will-change: transform, opacity;
 }
 nav button {
-    background-color: #fff;
-    border-style: none;
-    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
-    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
-    will-change: transform, opacity;
+  background-color: #fff;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  will-change: transform, opacity;
 }
 
 nav button:hover {
-    color: #008BA3;
+  color: #008ba3;
 }
 
 nav button:active {
-    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
-    outline: none;
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+    0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
 }
 
 nav button:focus {
-    outline: none;
-    border: 1px solid #00BCD4;
+  outline: none;
+  border: 1px solid #00bcd4;
 }
 
 nav button:not(:disabled) {
-    box-shadow: rgba(0, 52, 58, .3) 0 1px 3px 0, rgba(0, 52, 58, .15) 0 4px 8px 3px;
+  box-shadow: rgba(0, 52, 58, 0.3) 0 1px 3px 0,
+    rgba(0, 52, 58, 0.15) 0 4px 8px 3px;
 }
 
 nav button:not(:disabled):hover {
-    box-shadow: rgba(0, 52, 58, .3) 0 2px 3px 0, rgba(0, 52, 58, .15) 0 6px 10px 4px;
+  box-shadow: rgba(0, 52, 58, 0.3) 0 2px 3px 0,
+    rgba(0, 52, 58, 0.15) 0 6px 10px 4px;
 }
 
 nav button:not(:disabled):focus {
-    box-shadow: rgba(0, 52, 58, .3) 0 1px 3px 0, rgba(0, 52, 58, .15) 0 4px 8px 3px;
+  box-shadow: rgba(0, 52, 58, 0.3) 0 1px 3px 0,
+    rgba(0, 52, 58, 0.15) 0 4px 8px 3px;
 }
 
 nav button:not(:disabled):active {
-    box-shadow: rgba(0, 52, 58, .3) 0 4px 4px 0, rgba(0, 52, 58, .15) 0 8px 12px 6px;
+  box-shadow: rgba(0, 52, 58, 0.3) 0 4px 4px 0,
+    rgba(0, 52, 58, 0.15) 0 8px 12px 6px;
 }
 
 nav button:disabled {
-    box-shadow: rgba(0, 52, 58, .3) 0 1px 3px 0, rgba(0, 52, 58, .15) 0 4px 8px 3px;
+  box-shadow: rgba(0, 52, 58, 0.3) 0 1px 3px 0,
+    rgba(0, 52, 58, 0.15) 0 4px 8px 3px;
 }
 
 .solve-options {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 3%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 3%;
 }
 
 .card {
-    width: 22%;
-    min-width: 200px;
+  width: 22%;
+  min-width: 200px;
 }
 .card button {
-    background-color: #fff;
-    border: 1px solid #00BCD4;
+  background-color: #fff;
+  border: 1px solid #00bcd4;
 }
-footer{
-    display: flex;
-    gap: 1em 2em;
-    align-items: flex-start;
-    background-color: #00343A;
-    padding: 3% 5% 3% 5%;
-    flex-wrap: wrap;
+footer {
+  display: flex;
+  gap: 1em 2em;
+  align-items: flex-start;
+  background-color: #00343a;
+  padding: 3% 5% 3% 5%;
+  flex-wrap: wrap;
 }
 footer * {
-    display: inline;
-    text-decoration: none;
-    color: #fff;
+  display: inline;
+  text-decoration: none;
+  color: #fff;
 }
-footer menu ul{
-    display: flex;
-    flex-direction: column;
-    
+footer menu ul {
+  display: flex;
+  flex-direction: column;
 }
 .footer-logo {
-    width: 120px;
+  width: 120px;
 }
 ul {
-    margin: 0;
+  margin: 0;
 }
 .podcast {
-    padding: 5%;
-    background-color: #EAF7F7;
+  padding: 5%;
+  background-color: #eaf7f7;
 }
 main {
-    padding: 0 5% 3% 5%;
+  padding: 0 5% 3% 5%;
 }
 .happy-dancer {
-    margin: 20px;
+  margin: 20px;
 }
 .hero {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5% 10%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5% 10%;
 }
 #hero-text {
-    width: 50%;
-    font-size: 1.2em;
+  width: 50%;
+  font-size: 1.2em;
 }
 .legal {
-    padding: 0 5% 5% 5%;
+  padding: 0 5% 5% 5%;
+}
+.sales-page-button-div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5% 10%;
+  margin-top: 1em;
 }
