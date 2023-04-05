@@ -193,3 +193,6 @@ main {
   gap: 5% 10%;
   margin-top: 1em;
 }
+.georgie {
+  display: none;
+}
